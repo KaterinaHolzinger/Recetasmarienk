@@ -1,0 +1,62 @@
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        section ul {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 60px;
+            max-width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        section img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+
+        }
+
+        header{
+            background-color: rgb(168, 118, 136);
+            color: white;
+            text-align: center;
+            margin: 0;
+
+        }
+        section h2 {
+            text-align: center;
+        }
+
+        section {
+            background-image: url(imagenes/fondo3.jpg)
+        }
+
+        header nav {
+            margin: 0;
+            text-decoration: none;
+        }
+
+         header nav a:hover {
+            font-weight: bold;
+        }
+        
+        section ul li p{
+            color: rgb(0, 0, 0);
+        }
+
+        .titulo {
+            padding: 1%;
+        }
+
+        .logo {
+            float: left;
+            width: 7%;
+            position: absolute;
+            left: 5%;
+
+        }
+         

@@ -1,0 +1,44 @@
+header {
+    background-color: rgb(168, 118, 136);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 1.8%;
+}
+
+.logo {
+    position: absolute;
+    float: left;
+    width: 7%;
+    left: 5%;
+    padding-bottom: 5%;   
+}
+
+.casa img {
+    position: absolute;
+    float: right;
+    width: 4%;
+    right: 10%;
+}
+
+.contenedor-recetas {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    justify-items: center;
+    padding: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.recetas img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0 0 8px rgba (0, 0, 0, 0.2);
+}
+
+.recetas {
+    text-align: center;
+}
+
