@@ -25,6 +25,7 @@
             color: white;
             text-align: center;
             margin: 0;
+            text-decoration: none;
 
         }
         section h2 {
@@ -37,11 +38,12 @@
 
         header nav {
             margin: 0;
-            text-decoration: none;
+            
         }
 
          header nav a:hover {
             font-weight: bold;
+            
         }
         
         section ul li p{
@@ -59,6 +61,70 @@
             left: 5%;
 
         }
+
+        .secreto {
+            float: right;
+            position: absolute;
+            right: 10%;
+            
+        }
+
+        .llave {
+            float: right;
+            position: absolute;
+            right: 6%;
+            width: 3%;
+            margin-top: 2%;
+        }
+
+        .entrar {
+            text-align: center;
+            background-color: rgb(168, 118, 136);
+            padding: 40px 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba (0, 0, 0, 0.25);
+            width: 100%;
+            max-width: 400px;
+            margin-left: 33%;
+            margin-top: 7%;
+            
+        
+        }
+
+        .linea {
+            text-align: center;
+            margin: 1%;
+            
+        }
+
+        header nav a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        header ul a {
+            color: white;
+        }
+
+        ul a {
+            text-decoration: none;
+        }
+
+        .entrar button:hover {
+          background-color: rosybrown;
+        }
+
+        .entrar-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+
+    
+
+
 
         
          

@@ -1,9 +1,11 @@
+
 header {
     background-color: rgb(168, 118, 136);
     color: white;
     text-align: center;
     margin: 0;
     padding: 1.8%;
+    
 }
 
 .logo {
@@ -40,10 +42,13 @@ header {
 
 .recetas {
     text-align: center;
+    
+    
 }
 
 html {
     background-image: url(imagenes/fondo3.jpg)
+    
 }
 
 section h3 {
@@ -80,3 +85,27 @@ footer {
     margin-left: 3%;
     margin-right: 3%;
 }
+
+.historia img {
+    grid-template-columns: auto auto auto auto;
+    width: 18%;
+    margin-left: 5%;
+}
+
+.recetas p {
+    color: rgb(0, 0, 0);
+}
+
+section a  {
+    text-decoration: none;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav a:hover {
+    font-weight: bold;
+}
+

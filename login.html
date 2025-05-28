@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+     <link rel="stylesheet" href="estilos.css">
+     <meta charset="UTF-8">
+     <title>login</title>
+  </head>
+  <body>
+    <header>
+      <link rel="stylesheet" href="estiloslink.css">
+      <a href="index.html">
+            <img src="imagenes/logo marien.png" class="logo" alt="logo marienk">
+        </a>
+             <nav class="casa">
+                <a href="index.html">
+                <img src="imagenes/casa logo 2.png" alt="logo casa">
+                </a>
+             </nav>
+            <h1>LOGIN</h1>
+
+            <nav>
+             <a href="conhrno.html" style="margin: 20px;">con horno</a>
+             <a href="conmicroondas.html" style="margin: 20px;">con microondas</a>
+             <a href="conheladera.html" style="margin: 20px;">con heladera</a>
+             <a href="fit.html" style="margin: 20px;">FIT</a>
+             <a href="eventos.html" style="margin: 20px;">eventos</a>
+             <a href="frutales.html" style="margin: 20px;">frutales</a>
+         </nav>
+    </header>
+   <section>
+     <link rel="stylesheet" href="estilos.css">
+     <div class="entrar">
+       <h2>iniciar sesion</h2>
+       
+      <div class="linea">
+        <label for="username">usuario:</label>
+        <input type="text" id="username">
+      </div>
+
+      <div class="linea">
+       <label for="password">contraseña:</label>
+       <input type="password" id="password">
+      </div>
+
+     <div class="linea">
+       <button onclick="iniciarsesion()">entrar</button>
+       <p id="mensaje"></p>
+     </div>
+     
+     </div>
+     
+     <script src="login.js"></script>
+   </section>
+
+  
+  </body>
+</html>
