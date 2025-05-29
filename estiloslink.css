@@ -10,10 +10,14 @@ header {
 
 .logo {
     position: absolute;
-    float: left;
+    
     width: 7%;
     left: 5%;
-    padding-bottom: 5%;   
+      
+    border-radius: 50%; 
+    aspect-ratio: 1 / 1;;
+    object-fit: cover;
+
 }
 
 .casa img {
@@ -73,11 +77,14 @@ footer {
 }
 
 .imagenes img {
+    border-radius: 50%;
     width: 30%
+    
 }
 
 .frutas img {
     width: 40%;
+    border-radius: 50%;
 }
 
 .origen {
@@ -109,3 +116,25 @@ header nav a:hover {
     font-weight: bold;
 }
 
+.contenedor-recetas img {
+         transition: transform 0.3s ease;
+         border-radius: 10%;
+}
+
+.contenedor-recetas img:hover {
+          transform: scale(1.05);
+}
+
+body.modo-oscuro {
+            background-image: none;
+            background-color: rgb(54, 47, 47);
+            color: white;
+}
+
+#modoOscuroToggle {
+            right: 2%;
+            color: rgb(44, 42, 42);
+            position: absolute;
+            top: 2%;
+        }
+       

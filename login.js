@@ -11,3 +11,9 @@ function iniciarsesion() {
         mensaje.style.color = "red";
     }
 }
+
+  const toggle = document.getElementById('modoOscuroToggle');
+  toggle.addEventListener('click', () => {
+    document.body.classList.toggle('modo-oscuro');
+  });
+
